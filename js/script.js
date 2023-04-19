@@ -34,37 +34,13 @@ $(function() {
         $(".language-selected").removeClass("change-br");
         $(".language-selected").addClass("change-en");
         //section
-        $("#title").text("Solve your problem more precisely");
+        $("#title").text("Solve your problem more precisely!");
         //About
         $(".about-container ul:nth-child(1) li:nth-child(1) a").text("Contacts");
         $(".about-container ul:nth-child(1) li:nth-child(2) a").text("Telephone numbers");
         $(".about-container ul:nth-child(1) li:nth-child(3) a").text("Email");
         $(".about-container ul:nth-child(2) li:nth-child(1) a").text("Collaborators");
         $(".about-container ul:nth-child(2) li:nth-child(2) a").text("(names)");
-        $(".about-container ul:nth-child(2) li:nth-child(3) a").text("Feedback");
-    });
-});
-
-//Espanõl
-$(function() {
-    $(".es").click(function() {
-        //encabezamiento
-        $(".nav-menu").children().eq(0).text("Salud");
-        $(".nav-menu").children().eq(1).text("Electrónica");
-        $(".nav-menu").children().eq(2).text("Estética");
-        $(".nav-menu").children().eq(3).text("Programación ");
-        $(".language-selected").text("es");
-        $(".language-selected").removeClass("change-br");
-        $(".language-selected").removeClass("change-en");
-        $(".language-selected").addClass("change-es");
-        //sección
-        $("#title").text("¡Resuelva su problema con mayor precisión!");
-        //sobre
-        $(".about-container ul:nth-child(1) li:nth-child(1) a").text("Contactos");
-        $(".about-container ul:nth-child(1) li:nth-child(2) a").text("Telefonos");
-        $(".about-container ul:nth-child(1) li:nth-child(3) a").text("Correo electrónico");
-        $(".about-container ul:nth-child(2) li:nth-child(1) a").text("Colaboradores");
-        $(".about-container ul:nth-child(2) li:nth-child(2) a").text("(nombres)");
         $(".about-container ul:nth-child(2) li:nth-child(3) a").text("Feedback");
     });
 });
